@@ -1,4 +1,4 @@
-<img src="https://github.com/ashanftw/slider_confirm_button/raw/master/untitled.gif" alt="Demo Image" style="max-width:50% !important;">
+<img src="https://github.com/ashanftw/slider_confirm_button/raw/master/untitled.gif" alt="Demo Image" style="max-width:100%;">
 <pre>
 ConfirmButton(
 width: width,
@@ -13,7 +13,7 @@ btnTwoOnpressed: () {
 },
 mainColor: Color(0XFFb063c5),
 mainChild: new Row(
-  children: <Widget>[
+  children:<Widget>[
     new Text(
       'I accept the Terms of Service',
       overflow: TextOverflow.ellipsis,
@@ -22,7 +22,7 @@ mainChild: new Row(
 ),
 subOneColor: Color(0XFF46b3e6),
 subOneChild: new Row(
-  children: <Widget>[
+  children:<Widget>[
     new Icon(Icons.check_circle_outline),
     new Text(' Confirm')
   ],
