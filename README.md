@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<img src="https://github.com/ashanftw/slider_confirm_button/raw/master/untitled.gif" alt="Demo Image" style="max-width:50%;">
-=======
-<img src="https://github.com/ashanftw/slider_confirm_button/raw/master/untitled.gif" alt="Sample Demo" style="width:450px;">
->>>>>>> 0e62adff6f40b6ed64f37e48aa061001458f7b00
+<img src="https://github.com/ashanftw/slider_confirm_button/raw/master/untitled.gif" alt="Demo Image" style="max-width:50% !important;">
 <pre>
 ConfirmButton(
 width: width,
