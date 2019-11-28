@@ -1,14 +1,34 @@
-# testslider
-
-A new Flutter package.
-
-## Getting Started
-
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/ashanftw/slider_confirm_button/raw/master/untitled.gif" alt="Sample Demo" style="max-width:50%;">
+<pre>
+ConfirmButton(
+width: width,
+height: 55,
+btnOneClickReverseSlider: false,
+btnTwoClickReverseSlider: true,
+btnOneOnpressed: () {
+  print('Button one clicked');
+},
+btnTwoOnpressed: () {
+  print('Button two clicked');
+},
+mainColor: Color(0XFFb063c5),
+mainChild: new Row(
+  children: <Widget>[
+    new Text(
+      'I accept the Terms of Service',
+      overflow: TextOverflow.ellipsis,
+    ),
+  ],
+),
+subOneColor: Color(0XFF46b3e6),
+subOneChild: new Row(
+  children: <Widget>[
+    new Icon(Icons.check_circle_outline),
+    new Text(' Confirm')
+  ],
+),
+subTwoColor: Color(0XFFe25822),
+subTwoChild: new Row(
+  children: <Widget>[new Icon(Icons.close), new Text(' No')],
+)),
+</pre>
